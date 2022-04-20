@@ -9,6 +9,7 @@ cursor.execute("SELECT * FROM users")
 myResult = cursor.fetchall()
 
 # thank you this is me again
+
 for xx in myResult:
     print(xx)
 
