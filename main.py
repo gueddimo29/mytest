@@ -8,7 +8,7 @@ cursor = db.cursor()
 cursor.execute("SELECT * FROM users")
 myResult = cursor.fetchall()
 
-# thank you this is me again
+# thank you this is me again thanks
 
 for xx in myResult:
     print(xx)
